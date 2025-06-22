@@ -15,7 +15,7 @@ while True:
             else:
                 print("Твои задачи:")
                 for index, task in enumerate(tasks):
-                    print(index + 1, task)
+                    print(index + 1, task) #чтобы показывало задачи не с нулевой позиции
         elif a == 2:
             task = input("Введите задачу: ")
             if task.strip():
